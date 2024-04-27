@@ -96,7 +96,7 @@ func newOpenCmd() *openCmd {
 		Use:       "open",
 		ValidArgs: openNames(),
 		Short:     "Quickly open Stripe pages",
-		Long: `The open command provices shortcuts to quickly let you open pages to Stripe with
+		Long: `The open command provides shortcuts to quickly let you open pages to Stripe with
 in your browser. A full list of support shortcuts can be seen with 'stripe open --list'`,
 		Example: `stripe open --list
   stripe open api
